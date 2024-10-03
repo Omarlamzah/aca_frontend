@@ -1,0 +1,48 @@
+ 
+:root {
+  --container-height: 90px;
+  --container-width: 150px;
+}
+
+ 
+
+.stopwatch-container {
+  background: #191c29;
+  width: var(--container-width);
+  height: var(--container-height);
+  padding: 0px;
+  position: relative;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1em;
+  color: rgb(88 199 250 / 0%);
+  cursor: pointer;
+  font-family: cursive;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+
+
+}
+ 
+ 
+ 
+
+.display {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 20px;
+  position: relative;
+  animation: fadeIn 0.5s ease;
+  margin: 0;
+  padding: 0;
+}
+
+.milliseconds {
+  font-size: 25px;
+  position: absolute;
+  top: -10px;
+  right: 0px;
+} 
